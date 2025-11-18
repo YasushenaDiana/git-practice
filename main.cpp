@@ -1,8 +1,10 @@
+#include <iosstream>
 #include "hello.h"
 
-int main() {
+using namespace std;
 
+int main() {    
+    cout << "Hello, World!" << endl;
     printName();
-   
  return 0;
 }
